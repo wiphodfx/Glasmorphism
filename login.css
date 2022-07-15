@@ -1,0 +1,88 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(to right top,rgb(181, 167, 255),rgb(161, 167, 255));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.casing {
+    min-height: 80vh;
+    width: 60%;
+    background: white;
+    background: linear-gradient(to right bottom, rgba(200, 234, 213,0.7),rgba(200, 234, 213,0.3));
+    background: linear-gradient(to right top, rgba(200, 234, 213,0.7),rgba(200, 234, 213,0.3)),url(../image/free-aesthetic-purple-background-50upd.webp);
+    border: 5rem;
+    background-size: cover;
+    /* opacity: 0.4; */
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginform {
+    width: 350px;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: rgb(16, 18, 138);
+}
+
+.loginform h1 {
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+}
+
+.loginform p {
+    font-size: 20px;
+    margin: 15px 0;
+
+}
+
+.loginform input {
+    font-size: 16px;
+    width: 100%;
+    padding: 15px 10px;
+    margin-bottom: 20px;
+    /* border: 0; */
+    /* box-sizing: border-box; */
+    /* border-radius: 5px; */
+}
+
+.loginform button {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border-radius: 5px;
+    border: 0;
+}
+
+.loginform input[type="text"], .loginform input[type= "password"]{
+    border:none;    
+    border-bottom: 1px solid#fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    /* color: #fff; */
+    font-size: 18px;
+
+}
+
+.loginform button:hover {
+    background: skyblue;
+    color: #fff;
+    cursor: pointer;
+}
